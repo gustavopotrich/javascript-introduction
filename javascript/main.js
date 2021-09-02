@@ -1,5 +1,5 @@
-let nome = "Gustavo Potrich"
-let age = 25
+let nome = "Andrew"
+let age = 38
 
 //alert("My first JavaScript alert! :)")
 //alert("Welcome, " + nome)
@@ -43,11 +43,12 @@ if(age2 >= 18)
     console.log("You are teenager!")
 }*/
 
-//
+// WORKING WITH DATE()
 
 let d = new Date()
 console.log(d.getHours(), d.getMinutes())
 
+// JS FUNCTIONS WITH HTML
 
 function clicar(){
     document.getElementById("clicou").innerHTML = "Thank you!"
